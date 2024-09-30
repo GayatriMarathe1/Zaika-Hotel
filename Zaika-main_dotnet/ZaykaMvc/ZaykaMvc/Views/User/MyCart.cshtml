@@ -1,0 +1,492 @@
+﻿@*@model HashSet<ZaykaMvc.Models.DishViewModel>
+
+        @{
+            ViewData["Title"] = "My Cart";
+        }
+    @{HashSet<DishViewModel> menu = new HashSet<DishViewModel>(); }
+        <h1>My Cart</h1>
+        <form asp-action="SubmitCart" method="post">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Price
+                        </th>
+                        <th>
+                            Quantity
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Select((value, index) => new { value, index }))
+                        {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelitem => item.value.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelitem => item.value.Price)
+                            </td>
+                            <td>
+                                <input type="number" id="quantity" name="DishViewModels[@item.index].Quantity" placeholder="Enter Quantity" />
+
+                                <input type="hidden" name="DishViewModels[@item.index].Name" value="@item.value.Name" />
+                                <input type="hidden" name="DishViewModels[@item.index].Price" value="@item.value.Price" />
+                                <input type="submit" value="Add Dish" onclick="submitDish(@item.index)" />
+                            </td>
+                        </tr>
+                        }
+                </tbody>
+            </table>
+            <button type="submit" class="btn btn-success">Place Order</button>
+        </form>
+
+        <script type="text/javascript">
+            function submitDish(index) {
+                var quantity = document.querySelector(`input[name='DishViewModels[${index}].Quantity']`).value;
+                var name = document.querySelector(`input[name='DishViewModels[${index}].Name']`).value;
+                var price = document.querySelector(`input[name='DishViewModels[${index}].Price']`).value;
+                @{DishViewModel dishview = new DishViewModel(); }
+                    @dishview.Quantity = quantity;
+                    @dishview.Price = price;
+                    @dishview.Name = name;
+                @menu.Add(dishview);
+                document.forms[0].submit();  // Assumes the form is the first form on the page
+            }
+
+
+        </script>*@
+
+@* @model HashSet<ZaykaMvc.Models.DishViewModel>
+
+@{
+    ViewData["Title"] = "My Cart";
+}
+<head>
+    <link rel="stylesheet" href="~/css/mycart.css" asp-append-version="true" />
+</head>
+<h1>My Cart</h1>
+<form asp-action="SubmitCart" method="post" id="cartForm">
+    <legend>My Cart</legend>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="dishbody">
+            @foreach (var item in Model.Select((value, index) => new { value, index }))
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelitem => item.value.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelitem => item.value.Price)
+                    </td>
+                    <td>
+                        <input type="number" id="quantity-@item.index" value="1" name="DishViewModels[@item.index].Quantity" placeholder="Enter Quantity" />
+
+                        <input type="hidden" name="DishViewModels[@item.index].Name" value="@item.value.Name" />
+                        <input type="hidden" name="DishViewModels[@item.index].Price" value="@item.value.Price" />
+                        <button type="button" class="menubutton" onclick="addDishToMenu(@item.index)">Add Dish</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button type="submit" class="btn btn-success">Place Order</button>
+</form>
+
+<script type="text/javascript">
+    let menu = new Set();
+
+    function addDishToMenu(index) {
+
+        menu.forEach((dish) => {
+            if (dish.Index === index) {
+                menu.delete(dish);
+            }
+        });
+
+        let quantity = document.querySelector(`#quantity-${index}`).value;
+        let name = document.querySelector(`input[name='DishViewModels[${index}].Name']`).value;
+        let price = document.querySelector(`input[name='DishViewModels[${index}].Price']`).value;
+
+        let dish = {
+            Index: index,
+            Name: name,
+            Price: parseFloat(price),
+            Quantity: parseInt(quantity)
+        }; 
+        
+        menu.add(dish);
+    }
+
+    document.getElementById("cartForm").onsubmit = function () {
+        let hiddenInput = document.createElement("input");
+        hiddenInput.type = "hidden";
+        hiddenInput.name = "SerializedMenu";
+        hiddenInput.value = JSON.stringify(Array.from(menu));
+        console.log("Hello");
+        console.log(menu);
+        this.appendChild(hiddenInput);
+
+        document.querySelector('#dishbody').innerHTML = "Your Card is Empty";
+    };</script> *@
+
+@* 
+    @model HashSet<ZaykaMvc.Models.DishViewModel>
+
+@{
+    ViewData["Title"] = "My Cart";
+}
+<head>
+    <link rel="stylesheet" href="~/css/mycart.css" asp-append-version="true" />
+</head>
+<h1>My Cart</h1>
+
+<form asp-action="SubmitCart" method="post" id="cartForm">
+    <legend>My Cart</legend>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="dishbody">
+            @foreach (var item in Model.Select((value, index) => new { value, index }))
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelitem => item.value.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelitem => item.value.Price)
+                    </td>
+                    <td>
+                        <input type="number" id="quantity-@item.index" value="1" name="DishViewModels[@item.index].Quantity" placeholder="Enter Quantity" min="0" onchange="validateQuantity(@item.index)" />
+
+                        <input type="hidden" name="DishViewModels[@item.index].Name" value="@item.value.Name" />
+                        <input type="hidden" name="DishViewModels[@item.index].Price" value="@item.value.Price" />
+                    </td>
+                    <td>
+                        <button type="button" id="addDishButton-@item.index" class="menubutton" onclick="addDishToMenu(@item.index)">Add Dish</button>
+                        <span id="statusMessage-@item.index" class="status-message"></span> <!-- Message display area beside the button -->
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button type="submit" id="placeOrderButton" class="btn btn-success">Place Order</button>
+</form>
+
+<script type="text/javascript">
+    let menu = new Map();
+
+    document.addEventListener('DOMContentLoaded', function () {
+        validateAllQuantities(); // Validate quantities on page load
+    });
+
+    function addDishToMenu(index) {
+        let quantity = document.querySelector(`#quantity-${index}`).value;
+        let name = document.querySelector(`input[name='DishViewModels[${index}].Name']`).value;
+        let price = document.querySelector(`input[name='DishViewModels[${index}].Price']`).value;
+
+        let dish = {
+            Index: index,
+            Name: name,
+            Price: parseFloat(price),
+            Quantity: parseInt(quantity)
+        };
+
+        let statusMessage = document.getElementById(`statusMessage-${index}`);
+
+        if (menu.has(index)) {
+            menu.set(index, dish);
+            statusMessage.textContent = 'Dish updated successfully';
+            statusMessage.className = 'status-message alert alert-info';
+        } else {
+            menu.set(index, dish);
+            statusMessage.textContent = 'Dish added successfully';
+            statusMessage.className = 'status-message alert alert-success';
+        }
+
+        statusMessage.style.display = 'inline-block';
+
+        setTimeout(() => {
+            statusMessage.style.display = 'none';
+        }, 2000);
+
+        validateQuantity(index); // Revalidate quantity after adding dish
+    }
+
+    function validateQuantity(index) {
+        let quantity = document.querySelector(`#quantity-${index}`).value;
+        let addDishButton = document.querySelector(`#addDishButton-${index}`);
+        let placeOrderButton = document.getElementById('placeOrderButton');
+
+        if (quantity <= 0) {
+            addDishButton.disabled = true;
+            placeOrderButton.disabled = true;
+        } else {
+            addDishButton.disabled = false;
+            validateAllQuantities(); // Revalidate all quantities to enable Place Order button if needed
+        }
+    }
+
+    function validateAllQuantities() {
+        let allQuantitiesValid = true;
+
+        document.querySelectorAll('input[type="number"]').forEach(function (quantityInput) {
+            if (quantityInput.value <= 0) {
+                allQuantitiesValid = false;
+            }
+        });
+
+        let placeOrderButton = document.getElementById('placeOrderButton');
+        placeOrderButton.disabled = !allQuantitiesValid;
+    }
+
+    document.querySelectorAll('input[type="number"]').forEach(function (input) {
+        input.addEventListener('input', function () {
+            validateQuantity(input.id.split('-')[1]);
+        });
+    });
+
+    document.getElementById("cartForm").onsubmit = function () {
+        let hiddenInput = document.createElement("input");
+        hiddenInput.type = "hidden";
+        hiddenInput.name = "SerializedMenu";
+        hiddenInput.value = JSON.stringify(Array.from(menu.values()));
+        this.appendChild(hiddenInput);
+    };
+</script>
+
+<style>
+    .status-message {
+        margin-left: 10px;
+        font-size: 0.9rem;
+        vertical-align: middle;
+    }
+
+    .alert-success {
+        color: #28a745;
+    }
+
+    .alert-info {
+        color: #17a2b8;
+    }
+
+    .menubutton:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+
+    #placeOrderButton:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+</style> *@
+
+@model HashSet<ZaykaMvc.Models.DishViewModel>
+
+@{
+    ViewData["Title"] = "My Cart";
+}
+<head>
+    <link rel="stylesheet" href="~/css/mycart.css" asp-append-version="true" />
+</head>
+<h1>My Cart</h1>
+
+<form asp-action="SubmitCart" method="post" id="cartForm">
+    <legend>My Cart</legend>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="dishbody">
+            @foreach (var item in Model.Select((value, index) => new { value, index }))
+            {
+                <tr id="dishRow-@item.index">
+                    <td>
+                        @Html.DisplayFor(modelitem => item.value.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelitem => item.value.Price)
+                    </td>
+                    <td>
+                        <input type="number" id="quantity-@item.index" value="1" name="DishViewModels[@item.index].Quantity" placeholder="Enter Quantity" min="0" onchange="validateQuantity(@item.index)" />
+
+                        <input type="hidden" name="DishViewModels[@item.index].Name" value="@item.value.Name" />
+                        <input type="hidden" name="DishViewModels[@item.index].Price" value="@item.value.Price" />
+                    </td>
+                    <td>
+                        <button type="button" id="addDishButton-@item.index" class="menubutton" onclick="addDishToMenu(@item.index)">Add Dish</button>
+                        <button type="button" class="btn btn-danger btn-sm" onclick="removeDishFromMenu(@item.index)">Remove Dish</button>
+                        <span id="statusMessage-@item.index" class="status-message"></span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div id="emptyCartMessage" style="display:none;">Your Cart is Empty</div>
+    <button type="submit" id="placeOrderButton" class="btn btn-success" disabled>Place Order</button>
+</form>
+
+<script type="text/javascript">
+    let menu = new Map();
+    let isDishAdded = false;
+
+    document.addEventListener('DOMContentLoaded', function () {
+        validateAllQuantities(); // Validate quantities on page load
+        checkCartEmpty(); // Check if the cart is empty on load
+    });
+
+    function addDishToMenu(index) {
+        let quantity = document.querySelector(`#quantity-${index}`).value;
+        let name = document.querySelector(`input[name='DishViewModels[${index}].Name']`).value;
+        let price = document.querySelector(`input[name='DishViewModels[${index}].Price']`).value;
+
+        let dish = {
+            Index: index,
+            Name: name,
+            Price: parseFloat(price),
+            Quantity: parseInt(quantity)
+        };
+
+        let statusMessage = document.getElementById(`statusMessage-${index}`);
+
+        if (menu.has(index)) {
+            menu.set(index, dish);
+            statusMessage.textContent = 'Dish updated successfully';
+            statusMessage.className = 'status-message alert alert-info';
+        } else {
+            menu.set(index, dish);
+            statusMessage.textContent = 'Dish added successfully';
+            statusMessage.className = 'status-message alert alert-success';
+            isDishAdded = true; // Mark that a dish has been added
+        }
+
+        statusMessage.style.display = 'inline-block';
+
+        setTimeout(() => {
+            statusMessage.style.display = 'none';
+        }, 2000);
+
+        validateQuantity(index); // Revalidate quantity after adding dish
+        enablePlaceOrderButton(); // Check and enable the Place Order button
+    }
+
+    function validateQuantity(index) {
+        let quantity = document.querySelector(`#quantity-${index}`).value;
+        let addDishButton = document.querySelector(`#addDishButton-${index}`);
+
+        if (quantity <= 0) {
+            addDishButton.disabled = true;
+        } else {
+            addDishButton.disabled = false;
+        }
+
+        validateAllQuantities(); // Revalidate all quantities to enable Place Order button if needed
+    }
+
+    function validateAllQuantities() {
+        let allQuantitiesValid = true;
+
+        document.querySelectorAll('input[type="number"]').forEach(function (quantityInput) {
+            if (quantityInput.value <= 0) {
+                allQuantitiesValid = false;
+            }
+        });
+
+        if (allQuantitiesValid && isDishAdded) {
+            enablePlaceOrderButton();
+        } else {
+            disablePlaceOrderButton();
+        }
+    }
+
+    function enablePlaceOrderButton() {
+        let placeOrderButton = document.getElementById('placeOrderButton');
+        if (isDishAdded) {
+            placeOrderButton.disabled = false;
+        }
+    }
+
+    function disablePlaceOrderButton() {
+        let placeOrderButton = document.getElementById('placeOrderButton');
+        placeOrderButton.disabled = true;
+    }
+
+    function removeDishFromMenu(index) {
+        document.getElementById(`dishRow-${index}`).remove();
+        menu.delete(index);
+        checkCartEmpty(); // Check if cart is empty after removal
+    }
+
+    function checkCartEmpty() {
+        let cartRows = document.querySelectorAll('tbody tr');
+        let emptyCartMessage = document.getElementById('emptyCartMessage');
+
+        if (cartRows.length === 0) {
+            emptyCartMessage.style.display = 'block';
+            disablePlaceOrderButton();
+        } else {
+            emptyCartMessage.style.display = 'none';
+        }
+    }
+
+    document.getElementById("cartForm").onsubmit = function () {
+        let hiddenInput = document.createElement("input");
+        hiddenInput.type = "hidden";
+        hiddenInput.name = "SerializedMenu";
+        hiddenInput.value = JSON.stringify(Array.from(menu.values()));
+        this.appendChild(hiddenInput);
+    };
+</script>
+
+<style>
+    .status-message {
+        margin-left: 10px;
+        font-size: 0.9rem;
+        vertical-align: middle;
+    }
+
+    .alert-success {
+        color: #28a745;
+    }
+
+    .alert-info {
+        color: #17a2b8;
+    }
+
+    .menubutton:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+
+    #placeOrderButton:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+
+    .btn-danger {
+        margin-left: 10px;
+    }
+</style>

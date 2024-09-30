@@ -1,0 +1,310 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Zaika-main\\ZaykaMvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\models\\zaykadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\models\\zaykadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\wwwroot\\css\\mycart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\wwwroot\\css\\mycart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\views\\user\\mycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\views\\user\\mycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\views\\admin\\editdish.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\views\\admin\\editdish.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\wwwroot\\css\\myfooter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\wwwroot\\css\\myfooter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\views\\user\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\views\\user\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\wwwroot\\css\\success.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\wwwroot\\css\\success.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\paymentsservice\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\paymentsservice\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\models\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\models\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|d:\\zaika-main\\zaykamvc\\zaykamvc\\zaykamvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A4CB727D-CD06-483C-8466-979A115442BB}|ZaykaMvc\\ZaykaMvc.csproj|solutionrelative:zaykamvc\\zaykamvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ZaykaMvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ZaykaMvc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAPgAAAAAAAAAAAAAAAsBAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T22:06:56.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "index.css",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\index.css",
+              "RelativeDocumentMoniker": "ZaykaMvc\\wwwroot\\css\\index.css",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\index.css",
+              "RelativeToolTip": "ZaykaMvc\\wwwroot\\css\\index.css",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAB8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-17T08:54:59.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "mycart.css",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\mycart.css",
+              "RelativeDocumentMoniker": "ZaykaMvc\\wwwroot\\css\\mycart.css",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\mycart.css",
+              "RelativeToolTip": "ZaykaMvc\\wwwroot\\css\\mycart.css",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-17T08:40:28.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "success.css",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\success.css",
+              "RelativeDocumentMoniker": "ZaykaMvc\\wwwroot\\css\\success.css",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\success.css",
+              "RelativeToolTip": "ZaykaMvc\\wwwroot\\css\\success.css",
+              "ViewState": "AQIAACEAAAAAAAAAAAAqwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-16T21:43:28.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ZaykaMvc\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ZaykaMvc\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAqwEoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T21:21:46.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ZaykaMvc\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ZaykaMvc\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:41:40.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\appsettings.json",
+              "RelativeDocumentMoniker": "ZaykaMvc\\appsettings.json",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\appsettings.json",
+              "RelativeToolTip": "ZaykaMvc\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-16T21:18:25.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Program.cs",
+              "RelativeDocumentMoniker": "ZaykaMvc\\Program.cs",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Program.cs",
+              "RelativeToolTip": "ZaykaMvc\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T21:20:21.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "home.css",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\home.css",
+              "RelativeDocumentMoniker": "ZaykaMvc\\wwwroot\\css\\home.css",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\home.css",
+              "RelativeToolTip": "ZaykaMvc\\wwwroot\\css\\home.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-16T22:14:22.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ZaykaDbContext.cs",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Models\\ZaykaDbContext.cs",
+              "RelativeDocumentMoniker": "ZaykaMvc\\Models\\ZaykaDbContext.cs",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Models\\ZaykaDbContext.cs",
+              "RelativeToolTip": "ZaykaMvc\\Models\\ZaykaDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:46:48.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditDish.cshtml",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Views\\Admin\\EditDish.cshtml",
+              "RelativeDocumentMoniker": "ZaykaMvc\\Views\\Admin\\EditDish.cshtml",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Views\\Admin\\EditDish.cshtml",
+              "RelativeToolTip": "ZaykaMvc\\Views\\Admin\\EditDish.cshtml",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAAAMYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T22:59:55.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ZaykaMvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ZaykaMvc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T07:18:27.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyCart.cshtml",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Views\\User\\MyCart.cshtml",
+              "RelativeDocumentMoniker": "ZaykaMvc\\Views\\User\\MyCart.cshtml",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Views\\User\\MyCart.cshtml",
+              "RelativeToolTip": "ZaykaMvc\\Views\\User\\MyCart.cshtml",
+              "ViewState": "AQIAADgBAAAAAAAAAAAAADsBAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T08:40:03.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Myfooter.css",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\Myfooter.css",
+              "RelativeDocumentMoniker": "ZaykaMvc\\wwwroot\\css\\Myfooter.css",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\Myfooter.css",
+              "RelativeToolTip": "ZaykaMvc\\wwwroot\\css\\Myfooter.css",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-17T07:16:18.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Views\\User\\Success.cshtml",
+              "RelativeDocumentMoniker": "ZaykaMvc\\Views\\User\\Success.cshtml",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Views\\User\\Success.cshtml",
+              "RelativeToolTip": "ZaykaMvc\\Views\\User\\Success.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T21:42:48.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StripeSettings.cs",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Models\\StripeSettings.cs",
+              "RelativeDocumentMoniker": "ZaykaMvc\\Models\\StripeSettings.cs",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\Models\\StripeSettings.cs",
+              "RelativeToolTip": "ZaykaMvc\\Models\\StripeSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T21:19:41.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\PaymentsService\\PaymentService.cs",
+              "RelativeDocumentMoniker": "ZaykaMvc\\PaymentsService\\PaymentService.cs",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\PaymentsService\\PaymentService.cs",
+              "RelativeToolTip": "ZaykaMvc\\PaymentsService\\PaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T21:15:24.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ZaykaMvc.csproj",
+              "DocumentMoniker": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\ZaykaMvc.csproj",
+              "RelativeDocumentMoniker": "ZaykaMvc\\ZaykaMvc.csproj",
+              "ToolTip": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\ZaykaMvc.csproj",
+              "RelativeToolTip": "ZaykaMvc\\ZaykaMvc.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-16T14:41:20.815Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ZaykaMvc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ZaykaMvc.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\Myfooter.css",
+      "PackagePath": "staticwebassets\\css\\Myfooter.css"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\mycart.css",
+      "PackagePath": "staticwebassets\\css\\mycart.css"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\navbar.css",
+      "PackagePath": "staticwebassets\\css\\navbar.css"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\signup.css",
+      "PackagePath": "staticwebassets\\css\\signup.css"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\css\\success.css",
+      "PackagePath": "staticwebassets\\css\\success.css"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240708230314681.jpg",
+      "PackagePath": "staticwebassets\\images\\20240708230314681.jpg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240709010438671.webp",
+      "PackagePath": "staticwebassets\\images\\20240709010438671.webp"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240709011815992.jpg",
+      "PackagePath": "staticwebassets\\images\\20240709011815992.jpg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710001553179.webp",
+      "PackagePath": "staticwebassets\\images\\20240710001553179.webp"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710001628273.jpg",
+      "PackagePath": "staticwebassets\\images\\20240710001628273.jpg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710001650303.webp",
+      "PackagePath": "staticwebassets\\images\\20240710001650303.webp"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710001712784.webp",
+      "PackagePath": "staticwebassets\\images\\20240710001712784.webp"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710001752212.jpg",
+      "PackagePath": "staticwebassets\\images\\20240710001752212.jpg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710001853847.webp",
+      "PackagePath": "staticwebassets\\images\\20240710001853847.webp"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710002716142.jpeg",
+      "PackagePath": "staticwebassets\\images\\20240710002716142.jpeg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710002743492.webp",
+      "PackagePath": "staticwebassets\\images\\20240710002743492.webp"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710002833026.webp",
+      "PackagePath": "staticwebassets\\images\\20240710002833026.webp"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710002925770.jpeg",
+      "PackagePath": "staticwebassets\\images\\20240710002925770.jpeg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710002953925.webp",
+      "PackagePath": "staticwebassets\\images\\20240710002953925.webp"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710003049111.jpeg",
+      "PackagePath": "staticwebassets\\images\\20240710003049111.jpeg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710003313598.webp",
+      "PackagePath": "staticwebassets\\images\\20240710003313598.webp"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710161247741.jpeg",
+      "PackagePath": "staticwebassets\\images\\20240710161247741.jpeg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240710180724928.jpeg",
+      "PackagePath": "staticwebassets\\images\\20240710180724928.jpeg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240816211656811.avif",
+      "PackagePath": "staticwebassets\\images\\20240816211656811.avif"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240816212651838.jpeg",
+      "PackagePath": "staticwebassets\\images\\20240816212651838.jpeg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240817040916493.jpg",
+      "PackagePath": "staticwebassets\\images\\20240817040916493.jpg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240817041218469.jpg",
+      "PackagePath": "staticwebassets\\images\\20240817041218469.jpg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240817140543346.jpg",
+      "PackagePath": "staticwebassets\\images\\20240817140543346.jpg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240817140608107.jpg",
+      "PackagePath": "staticwebassets\\images\\20240817140608107.jpg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240817140637127.jpg",
+      "PackagePath": "staticwebassets\\images\\20240817140637127.jpg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240817140658882.jpg",
+      "PackagePath": "staticwebassets\\images\\20240817140658882.jpg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240817140724859.jpg",
+      "PackagePath": "staticwebassets\\images\\20240817140724859.jpg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240817140758537.jpg",
+      "PackagePath": "staticwebassets\\images\\20240817140758537.jpg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\20240817140838851.jpg",
+      "PackagePath": "staticwebassets\\images\\20240817140838851.jpg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\gulabjamun.jpeg",
+      "PackagePath": "staticwebassets\\images\\gulabjamun.jpeg"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\images\\order.png",
+      "PackagePath": "staticwebassets\\images\\order.png"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Zaika-main\\ZaykaMvc\\ZaykaMvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ZaykaMvc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ZaykaMvc.props",
+      "PackagePath": "build\\ZaykaMvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ZaykaMvc.props",
+      "PackagePath": "buildMultiTargeting\\ZaykaMvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ZaykaMvc.props",
+      "PackagePath": "buildTransitive\\ZaykaMvc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
